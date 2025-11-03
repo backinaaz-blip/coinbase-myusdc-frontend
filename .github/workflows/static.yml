@@ -1,4 +1,46 @@
-# Simple workflow for deploying static content to GitHub Pages
+            - name: Azure Static Website Deploy
+  # You may pin to the exact commit or the version.
+  # uses: feeloor/azure-static-website-deploy@03144ea5142f3fd4062ba46712cd944f91e85436
+  uses: feeloor/azure-static-website-deploy@v0.1.1
+  with:
+    # The name of the directory you want to upload
+    SOURCE_DIR: 
+    # Your Azure Client ID
+    AZURE_CLIENT_ID: 
+    # Your Azure TENANT ID
+    AZURE_TENANT_ID: 
+    # Your Azure Secret
+    AZURE_SECRET: 
+    # Your Azure Subscription ID
+    AZURE_SUBSCRIPTION_ID: 
+    # Your Azure Storage Account Name
+    AZURE_STORAGE_ACCOUNT_NAME: 
+    # The index document that you specify when you enable static website hosting, appears when users open the site and dont specify a specific file.
+    AZURE_INDEX_DOCUMENT_NAME: 
+    # If the server returns a 404 error, and you have not specified an error document when you enabled the website, then a default 404 page is returned to the user.
+    AZURE_ERROR_DOCUMENT_NAME: # optional
+                      - name: Azure Static Website Deploy
+  # You may pin to the exact commit or the version.
+  # uses: feeloor/azure-static-website-deploy@03144ea5142f3fd4062ba46712cd944f91e85436
+  uses: feeloor/azure-static-website-deploy@v0.1.1
+  with:
+    # The name of the directory you want to upload
+    SOURCE_DIR: 
+    # Your Azure Client ID
+    AZURE_CLIENT_ID: 
+    # Your Azure TENANT ID
+    AZURE_TENANT_ID: 
+    # Your Azure Secret
+    AZURE_SECRET: 
+    # Your Azure Subscription ID
+    AZURE_SUBSCRIPTION_ID: 
+    # Your Azure Storage Account Name
+    AZURE_STORAGE_ACCOUNT_NAME: 
+    # The index document that you specify when you enable static website hosting, appears when users open the site and dont specify a specific file.
+    AZURE_INDEX_DOCUMENT_NAME: 
+    # If the server returns a 404 error, and you have not specified an error document when you enabled the website, then a default 404 page is returned to the user.
+    AZURE_ERROR_DOCUMENT_NAME: # optional
+          # Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
 
 on:
